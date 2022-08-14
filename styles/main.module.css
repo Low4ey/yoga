@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+.head {
+    position: relative;
+    top: 5em;
+    left: 13em;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .head h1 {
+    position: absolute;
+    font-size: 8em;
+    transform: translate(-50%, -50%);
+  }
+  .head h1:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+  }
+  .head h1:nth-child(2) {
+    color: white;
+    animation: animate 4s ease-in-out infinite;
+  }
+  @keyframes animate {
+    0%,
+    100% {
+      clip-path: polygon(
+        0% 51%,
+        11% 48%,
+        22% 46%,
+        28% 45%,
+        41% 44%,
+        48% 46%,
+        54% 50%,
+        63% 55%,
+        66% 57%,
+        75% 59%,
+        82% 58%,
+        86% 54%,
+        92% 50%,
+        97% 48%,
+        99% 46%,
+        100% 99%,
+        0% 100%
+      );
+    }
+    50% {
+      clip-path: polygon(
+        0% 38%,
+        6% 41%,
+        13% 45%,
+        23% 47%,
+        30% 46%,
+        37% 44%,
+        51% 39%,
+        54% 37%,
+        57% 36%,
+        66% 33%,
+        74% 31%,
+        80% 30%,
+        91% 30%,
+        98% 32%,
+        100% 33%,
+        100% 99%,
+        1% 100%
+      );
+    }
+  }

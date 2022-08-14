@@ -1,0 +1,17 @@
+.ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    color: black;
+    justify-content: flex-end;
+    position: relative;
+    right: 2em;
+}
+.list{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
