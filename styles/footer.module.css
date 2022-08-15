@@ -1,0 +1,35 @@
+.ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+}
+.list{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+}
+.links h3{
+    font-weight: bold;
+}
+.col{
+    margin-left: 4em;
+}
+.info{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main p{
+    position: relative;
+    top: 2em;
+    height: 1.8em;
+    width: 30em;
+    left: 5em;
+}
