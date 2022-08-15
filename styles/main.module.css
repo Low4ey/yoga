@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 .head {
     position: relative;
-    top: 5em;
-    left: 13em;
+    bottom: 25em;
+    left: 66em;
     font-family: "Ubuntu", sans-serif;
   }
   .head h1 {
     position: absolute;
-    font-size: 8em;
+    font-size: 10em;
     transform: translate(-50%, -50%);
   }
   .head h1:nth-child(1) {

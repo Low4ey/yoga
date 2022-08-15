@@ -1,0 +1,34 @@
+.main{
+    background: rgb(13, 71, 143);
+}
+.main h2{
+    position: relative;
+    top: 1em;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.cara{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+}
+.crd p{
+    color: white;
+    position: relative;
+    bottom: 2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.crd{
+    margin-right: 5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 20px;
+}

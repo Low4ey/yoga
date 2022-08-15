@@ -1,7 +1,11 @@
-.main{
 
-}
-.landimg{
-  height: 500px;
+.circle {
+  position: absolute;
+  background: rgb(13, 71, 143);
+  top: 4em;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
   z-index: -1;
+  opacity: 20%;
 }

@@ -1,19 +1,27 @@
+.para{
+    position: relative;
+    bottom: 18em;
+    left: 54em;
+}
+.para p{
+    font-size: 20px;
+    color: white;
 
+}
 .btn{
     display: flex;
-    padding-right: 10px;
+    cursor: pointer;
+    
 }
 .btn button {
-    color: #090909;
-    cursor: pointer;
+    color: white;
     padding: 0.7em 1.7em;
     font-size: 18px;
     border-radius: 0.5em;
-    background: #e8e8e8;
-    border: 1px solid #e8e8e8;
+    background: #3d5a80;
+    border: 1px solid #567fb5;
     transition: all .3s;
-    box-shadow: 6px 6px 12px #c5c5c5,
-                -6px -6px 12px #ffffff;
+    box-shadow: 6px 6px 12px #2980c2 ;
    }
    
    .btn button:hover {
@@ -23,4 +31,8 @@
    .btn button:active {
     box-shadow: 4px 4px 12px #c5c5c5,
                 -4px -4px 12px #ffffff;
+   }
+   .btn1{
+    margin-right:2em;
+    margin-top: 1em;
    }
